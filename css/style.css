@@ -1,0 +1,122 @@
+body {
+  background-image: url(../images/bg.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-size: 1.2rem;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.header ul {
+  list-style-type: none;
+  width: 72%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(240, 240, 240, 0.8);
+  border: 2px solid rgba(240, 240, 240, 0.8);
+  border-radius: 8px;
+  backdrop-filter: blur(2px);
+}
+
+.header .logo {
+  float: left;
+  margin-top: 5px;
+}
+
+.header li {
+  float: right;
+}
+
+.header li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 24px 36px;
+  text-decoration: none;
+}
+
+.header li a:hover:not(.active) {
+  background-color: #87b6fa;
+}
+
+.header .active {
+  background-color: rgba(76, 175, 80, 0.6);
+}
+
+.header .active:hover {
+  background-color: #4caf50;
+}
+
+.container {
+  width: 70%;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(240, 240, 240, 0.6);
+  padding: 2% 5%;
+  border-radius: 10px;
+}
+
+.container{
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+thead th {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 30%;
+}
+
+thead th:nth-child(3) {
+  width: 40%;
+}
+
+th, td {
+  padding: 20px;
+  text-align: center;
+}
+
+.footer {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  background-color: rgba(224, 235, 212, 0.4);
+  padding: 2% 5%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.footer h3 {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.2em;
+  margin: 6px 0;
+}
+
+.footer p {
+  font-size: 12px;
+  letter-spacing: 1em;
+  opacity: 0.3;
+}
+
+.footer .svg {
+  fill: #d43f57;
+}
